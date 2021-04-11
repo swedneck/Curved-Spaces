@@ -1,0 +1,75 @@
+body
+{
+	/*
+	 *	For Western languages:
+	 *		"Times New Roman" and "Times" are the PC and Mac names
+	 *		for the same font.
+	 *
+	 *	For East Asian languages:
+	 *		macOS  takes "sans-serif" and provides a good-looking font.
+	 *		Windows 7 takes "sans-serif" and provides an ugly non-smoothed
+	 *			font by default.  For better results, we must name
+	 *			an appropriate ClearType font explicitly (see below).
+	 */
+/*	font-family:		"Times New Roman", Times, serif; */
+	font-family:		sans-serif;
+	background-color:	#C0E0FF;
+}
+body:lang(ar)		{direction: rtl; font-family: "Simplified Arabic"}
+body:lang(ja)		{font-family: Meiryo, メイリオ, sans-serif}
+body:lang(ko)		{font-family: "Malgun Gothic", "맑은 고딕", sans-serif}
+body:lang(zh-Hans)	{font-family: "Microsoft YaHei", 微软雅黑, sans-serif}
+body:lang(zh-Hant)	{font-family: "Microsoft JhengHei", 微軟正黑體, sans-serif}
+
+div.whatText
+{
+	font-size:			14pt;
+	font-style:			italic;
+	margin-top:			16pt;
+	margin-bottom:		3pt;
+	margin-left:		8pt;
+	margin-right:		8pt;
+	color:				#004080;
+}
+div.whatText:lang(ar)
+{
+	/*
+	 *	On iOS and macOS, setting font-style: italics makes
+	 *	the Arabic letters slant the same way as the Latin letters,
+	 *	with the letters' tops leaning rightwards.  This seems
+	 *	backwards for Arabic, so let's not use italics in Arabic.
+	 */
+	font-style:			normal;
+}
+div.whatText:lang(ja)	{font-style: normal}	/*	no italics	*/
+div.whatText:lang(zh)	{font-style: normal}	/*	no italics	*/
+
+div.howText
+{
+	font-size:			13pt;
+	margin-top:			0;
+	margin-bottom:		0;
+	margin-left:		24pt;
+	margin-right:		 8pt;
+	color:				#202020;
+}
+div.howText:lang(ar)
+{
+	margin-left:		 8pt;
+	margin-right:		24pt;
+}
+
+div.altHowText
+{
+	font-size:			8pt;
+	margin-top:			4pt;
+	margin-bottom:		0;
+	margin-left:		28pt;
+	margin-right:		12pt;
+	color:				#6080A0;
+}
+div.altHowText:lang(ar)
+{
+	margin-left:		12pt;
+	margin-right:		28pt;
+}

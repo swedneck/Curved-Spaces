@@ -1,0 +1,19 @@
+#	Three-Quarters Turn Space
+#
+#	Similar to the Quarter-Turn Space,
+#	but with the twist going the other way.
+
+ 1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 1.0  0.0  0.0  1.0 
+
+ 1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 0.0  1.0  0.0  1.0 
+
+ 0.0  1.0  0.0  0.0
+-1.0  0.0  0.0  0.0
+ 0.0  0.0  1.0  0.0 
+ 0.0  0.0  1.0  1.0 

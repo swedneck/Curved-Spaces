@@ -1,0 +1,132 @@
+//	Program:
+//		Curved Spaces
+//
+//	Language:
+//		Català
+//		Catalan
+//
+//	Translator:
+//		Cristian Armendariz-Picon
+//
+//	Date:
+//		July 2020
+//
+//	© 2021 by Jeff Weeks
+//	See TermsOfUse.txt
+
+//	Cristian,
+//	This file will look pretty if you set your editor to use
+//	a fixed-width font, but this is only for your own aesthetic pleasure,
+//	and has no effect on the final output.
+
+//	Application menu (macOS)
+"Curved Spaces"			= "Curved Spaces"
+"About Curved Spaces"	= "Sobre Curved Spaces"	//	with no '…' on macOS
+"About Curved Spaces…"	= "Sobre Curved Spaces…"	//	with '…' on Windows
+"Hide Curved Spaces"	= "Ocultar Curved Spaces"
+"Hide Others"			= "Ocultar la resta"
+"Show All"				= "Mostrar-ho tot"
+"Quit Curved Spaces"	= "Sortir de Curved Spaces"	//	macOS
+
+//	File menu
+"File"					= "Arxiu"
+"Open…"					= "Obrir…"
+"Open New…"				= "Obrir en una nova finestra"
+"Open Recent"			= "Obrir recents"
+"Clear Menu"			= "Buidar el menú"
+"Export"				= "Exportar"
+"Copy Image"			= "Copiar imatge"
+"Save Image"			= "Desar imatge"	//	with no '…' on iOS
+"Save Image…"			= "Desar imatge…"	//	with '…' on macOS
+"Exit"					= "Sortir"	//	Windows
+
+//	Space menu
+"Space"					= "Espai"
+"Change Space…"			= "Canviar d’espai…"	//	macOS only
+"Basic"					= "Bàsic"	//	iOS only
+
+// Cristian,
+// Wikipedia uses “Torus”(en) = “Tor”(ca)  (https://ca.wikipedia.org/wiki/Tor_(geometria)).
+// For “3-torus” it might be a matter of your personal preference among
+// “Hipertor”, “3-tor” and “Tor 3D”.  I’m happy to go with your gut feeling on this,
+// but if you’re uncomfortable deciding, I know a Catalan mathematician in Barcelona
+// whom I could ask.
+"3-Torus"				= ""	//	iOS only
+
+"Poincaré Dodec. Space"	= "Espai dodecèdric de Poincaré"	//	iOS only
+"Mirrored Dodecahedron"	= "Dodecàedre emmirallat"	//	iOS only
+"Intermediate"			= "Intermedi"	//	iOS only
+"Shape of Space, 3rd edition"	= "Shape of Space, 3ª edició"	//	iOS only
+"Advanced"				= "Avançat"	//	iOS only
+"Spherical"				= "Esfèrics"	//	iOS only, plural as per our discussion on Saturday
+"Flat"					= "Plans"		//	iOS only
+"Hyperbolic"			= "Hiperbòlics"	//	iOS only
+
+//	Space Selection Sheet (macOS)
+"Choose a Space"		= ""
+"OK"					= ""
+
+"Done"					= "Fet"			//	standard iOS translation of "Done"
+"Cancel"				= "Cancel·lar"	//	standard iOS translation of "Cancel"
+
+//	Options menu (iOS) / View menu (macOS)
+"Options"				= ""
+"View"					= "Veure"
+"Centerpiece"			= "Objecte central"	//	as per our discussion last Saturday
+"No Centerpiece"		= "Cap"	//	In Spanish we have "Objeto central" / "Ninguno" here.
+"Earth"					= ""
+"Galaxy"				= ""
+"Gyroscope"				= ""
+"Self"					= "La meva astronau"	//	as per our discussion last Saturday
+
+// Cristian,
+// You’ve got a lot of flexibility for how to translate "Color Coding".
+// For example, in other languages we’ve got
+//   es: Colorear caras asociadas
+//   pt: Colorido (lit. “coloring”)
+//
+"Color Coding"			= ""
+
+"Clifford Parallels"	= "Paral·leles de Clifford"
+"CliffordNone"			= "Cap"	//	= "None"
+"Bicolor"				= "Bicolores"	//	Does that sound OK? (in the feminine plural)
+
+// Cristian, "Centerlines" isn’t used in the public version,
+// so it needs no translation.
+"Centerlines"			= "<Centerlines>"	//	DON’T TRANSLATE THAT (NO NEED)
+
+"One Set"				= ""
+"Two Sets"				= ""
+"Three Sets"			= ""
+"Vertex Figures"		= "Figures de vèrtex"	//	cf. https://ca.wikipedia.org/wiki/Figura_de_vèrtex
+												//	(“vèrtex” intentionally left in the singular,
+												//	as in Spanish)
+"Fog"					= ""
+
+//	Help menu
+"Help"					= "Ajuda"
+"How to Fly"			= ""
+"Contact"				= ""
+"Thanks"				= "Agraïments"
+"Translators"			= ""
+"NSF"					= "NSF"
+"Close"					= "Tancar"
+
+
+//	Window title
+				// Curved Spaces
+"WindowTitle"	= "Curved Spaces"
+
+//	Save Panel (macOS)
+
+					// Save Image as PNG
+"SavePanelTitle"	= ""
+
+					// image
+"DefaultFileName"	= "imatge"
+
+					// Width:
+"WidthLabel"		= ":"
+
+					// Height:
+"HeightLabel"		= ":"

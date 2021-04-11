@@ -1,0 +1,22 @@
+﻿#	Cubic Klein Space
+#		with the x-flip realized in the z direction,
+#		for consistency with the figures in Chapter 7
+#		of The Shape of Space
+#
+#	Like a cubic torus, but the back wall (z = -1/2) is glued
+#	to the front wall (z = +1/2) with a side-to-side flip.
+
+ 1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 1.0  0.0  0.0  1.0 
+
+ 1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 0.0  1.0  0.0  1.0 
+
+-1.0  0.0  0.0  0.0 
+ 0.0  1.0  0.0  0.0 
+ 0.0  0.0  1.0  0.0 
+ 0.0  0.0  1.0  1.0 

@@ -1,0 +1,12 @@
+/* Localized versions of Info.plist keys (Chinese - simplified characters) */
+
+"CFBundleDisplayName" = "弯曲空间";	/* short name */
+
+/*
+ *	The use of quotation marks “…” here matches what iOS does
+ *	in the title that it provides for the Photo Access dialog box,
+ *	but may nevertheless be unnecessary in this explanatory comment.
+ *	No native speaker has checked this usage.
+ */
+"NSPhotoLibraryUsageDescription"	= "你可以导出“弯曲空间”的图画到照片app。为了保护个人隐私，本程序不会查看你的照片并且只有在你本人的操作下，才会添加新的图像。";
+"NSPhotoLibraryAddUsageDescription"	= "你可以导出“弯曲空间”的图画到照片app。为了保护个人隐私，本程序不会查看你的照片并且只有在你本人的操作下，才会添加新的图像。";

@@ -1,0 +1,154 @@
+//	Program:
+//		Curved Spaces
+//
+//	Language:
+//		<name in the language itself>
+//		<name in English>
+//
+//	Translator:
+//		<name of translator>
+//
+//	Date:
+//		<month and year of translation>
+//
+//	© 2021 by Jeff Weeks
+//	See TermsOfUse.txt
+//
+//	This file should be saved as UTF-8.
+
+//	Notes to translator:
+//
+//	1.	This is a plain text file (UTF-8 encoding),
+//		which you can edit in a plain text editor.
+//		You don't need anything fancy like Microsoft Word
+//		(but if you do use Word, please save your work
+//		as plain UTF-8 text).
+//
+//		This text will look pretty if you set your editor to use
+//		a.	a fixed-width font, and
+//		b.	4-space tab stops
+//		but this is only for your own aesthetic pleasure,
+//		and has no effect on the final output.
+//
+//	2.	For each expression in English on the left side of an '=',
+//		please insert the <LANGUAGE NAME> equivalent on the right side of the '='.
+//		For example,
+//
+//			"house"		= ""
+//
+//		might become
+//
+//			"house"		= "<INSERT TRANSLATION>"
+//
+//	3.	In the other languages (French, Italian, etc.)
+//		the translators kept the name "Curved Spaces" as it is
+//		but you are welcome to create a <LANGUAGE NAME> equivalent if you prefer.
+//		It's really an aesthetic question, so please use your judgment.
+
+//	Application menu (macOS)
+"Curved Spaces"			= "Curved Spaces"
+"About Curved Spaces"	= ""	//	with no '…' on macOS
+"About Curved Spaces…"	= "…"	//	with '…' on Windows
+"Hide Curved Spaces"	= ""
+"Hide Others"			= ""
+"Show All"				= ""
+"Quit Curved Spaces"	= ""	//	macOS
+
+//	File menu
+"File"					= ""
+"Open…"					= ""
+"Open New…"				= ""
+"Open Recent"			= ""
+"Clear Menu"			= ""
+"Export"				= ""
+"Copy Image"			= ""
+"Save Image"			= ""	//	with no '…' on iOS
+"Save Image…"			= "…"	//	with '…' on macOS
+"Exit"					= ""	//	Windows
+
+//	Space menu
+"Space"					= ""
+"Change Space…"			= "…"	//	macOS only
+"Basic"					= ""	//	iOS only
+"3-Torus"				= ""	//	iOS only
+"Poincaré Dodec. Space"	= ""	//	iOS only, = "Poincaré dodecahedral space"
+"Mirrored Dodecahedron"	= ""	//	iOS only
+"Intermediate"			= ""	//	iOS only
+"Shape of Space, 3rd edition"	= ""	//	iOS only
+"Advanced"				= ""	//	iOS only
+"Spherical"				= ""	//	iOS only
+"Flat"					= ""	//	iOS only
+"Hyperbolic"			= ""	//	iOS only
+
+//	Space Selection Sheet (macOS)
+"Choose a Space"		= ""
+"OK"					= ""
+
+//	To get the UIKit's official translations
+//	for "Done" and "Cancel", use the code
+//	found in my folder
+//
+//		Notes & Utilities/Done and Cancel translations/
+//
+"Done"					= ""
+"Cancel"				= ""
+
+//	Options menu (iOS) / View menu (macOS)
+"Options"				= ""
+"View"					= ""
+"Centerpiece"			= ""
+"No Centerpiece"		= ""	//	Please translate as "None", "Off", "De-activated", etc.
+"Earth"					= ""
+"Galaxy"				= ""
+"Gyroscope"				= ""
+"Self"					= ""
+"Color Coding"			= ""
+"Clifford Parallels"	= ""
+"CliffordNone"			= ""	//	= "None"
+"Bicolor"				= ""
+"Centerlines"			= "<Centerlines>"	//	not used in public version
+"One Set"				= ""
+"Two Sets"				= ""
+"Three Sets"			= ""
+"Vertex Figures"		= ""
+"Fog"					= ""
+
+//	Help menu
+"Help"					= ""
+"How to Fly"			= ""
+"Contact"				= ""
+"Thanks"				= ""
+"Translators"			= ""
+"NSF"					= "NSF"
+"Close"					= ""
+
+
+//	Note to the translator:  From here on, the text to be translated
+//	appears in the line *above* the empty quotes.  So if you saw
+//
+//							//house
+//		"LabelDwelling"		= ""
+//
+//	you'd want to ignore "LabelDwelling" and translate "house", like this:
+//
+//							//house
+//		"LabelDwelling"		= "<INSERT TRANSLATION HERE>"
+
+
+//	Window title
+				// Curved Spaces
+"WindowTitle"	= ""
+
+//	Save Panel (macOS)
+
+					// Save Image as PNG File
+"SavePanelTitle"	= ""
+
+					// image
+"DefaultFileName"	= ""
+
+					// Width:
+"WidthLabel"		= ":"
+
+					// Height:
+"HeightLabel"		= ":"

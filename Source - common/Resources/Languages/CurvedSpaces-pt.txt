@@ -1,0 +1,107 @@
+//	Program:
+//		Curved Spaces
+//
+//	Language:
+//		Português
+//		Portuguese
+//
+//	Translator:
+//		Nuno Fernandes
+//
+//	Date:
+//		July 2020
+//
+//	© 2021 by Jeff Weeks
+//	See TermsOfUse.txt
+//
+//	This file should be saved as UTF-8.
+
+//	Application menu (macOS)
+"Curved Spaces"			= "Espaços Curvos"
+"About Curved Spaces"	= "Acerca do Espaços Curvos"	//	with no '…' on macOS
+"About Curved Spaces…"	= "Acerca do Espaços Curvos…"	//	with '…' on Windows
+"Hide Curved Spaces"	= "Ocultar o Espaços Curvos"
+"Hide Others"			= "Ocultar outras aplicações"
+"Show All"				= "Mostrar tudo"
+"Quit Curved Spaces"	= "Sair do Espaços Curvos"	//	macOS
+
+//	File menu
+"File"					= "Ficheiro"
+"Open…"					= "Abrir…"
+"Open New…"				= "Abrir numa nova janela…"
+"Open Recent"			= "Abrir recente"
+"Clear Menu"			= "Limpar menu"
+"Export"				= "Exportar"
+"Copy Image"			= "Copiar imagem"
+"Save Image"			= "Guardar imagem"	//	with no '…' on iOS
+"Save Image…"			= "Guardar imagem…"	//	with '…' on macOS
+"Exit"					= "Sair"	//	Windows
+
+//	Space menu
+"Space"					= "Espaços"
+"Change Space…"			= "Mudar de espaço…"	//	macOS only
+"Basic"					= "Básico"				//	iOS only
+"3-Torus"				= "Toro 3D"
+"Poincaré Dodec. Space"	= "Espaço dodecaédrico de Poincaré"	//	iOS only
+"Mirrored Dodecahedron"	= "Dodecaedro espelhado"	//	iOS only
+"Intermediate"			= "Intermédio"	//	iOS only
+"Shape of Space, 3rd edition"	= "Shape of Space, 3ª edição"	//	iOS only
+"Advanced"				= "Avançado"	//	iOS only
+"Spherical"				= "Esférico"	//	iOS only
+"Flat"					= "Plano"		//	iOS only
+"Hyperbolic"			= "Hiperbólico"	//	iOS only
+
+//	Space Selection Sheet (macOS)
+"Choose a Space"		= "Escolhe um espaço"
+"OK"					= "OK"
+
+"Done"					= "OK"			//	standard iOS translation in pt-PT and pt-BR
+"Cancel"				= "Cancelar"	//	standard iOS translation in pt-PT and pt-BR
+
+//	Options menu (iOS) / View menu (macOS)
+"Options"				= "Opções"
+"View"					= "Visualização"	//	standard macOS translation in pt-PT
+"Centerpiece"			= "Peça central"
+"No Centerpiece"		= "Nenhuma"	//	Please translate as "None", "Off", "De-activated", etc.
+"Earth"					= "Terra"
+"Galaxy"				= "Galáxia"
+"Gyroscope"				= "Giroscópio"
+"Self"					= "Eu"
+"Color Coding"			= "Colorido"
+"Clifford Parallels"	= "Paralelas de Clifford"
+"CliffordNone"			= "Nenhumas"	//	= "None"
+"Bicolor"				= "Bicolores"
+"Centerlines"			= "<Centerlines>"	//	not used in public version - no need to translate it
+"One Set"				= "Um conjunto"
+"Two Sets"				= "Dois conjuntos"
+"Three Sets"			= "Três conjuntos"
+"Vertex Figures"		= "Figuras de vértice"
+"Fog"					= "Nevoeiro"
+
+//	Help menu
+"Help"					= "Ajuda"
+"How to Fly"			= "Como navegar"
+"Contact"				= "Contacto"
+"Thanks"				= "Agradecimentos"
+"Translators"			= "Tradutores"
+"NSF"					= "NSF"
+"Close"					= "Fechar"
+
+
+//	Window title
+				// Curved Spaces
+"WindowTitle"	= "Espaços Curvos"
+
+//	Save Panel (macOS)
+
+					// Save Image as PNG File
+"SavePanelTitle"	= "Guardar imagem como PNG"
+
+					// image
+"DefaultFileName"	= "imagem"
+
+					// Width:
+"WidthLabel"		= "Largura:"
+
+					// Height:
+"HeightLabel"		= "Altura:"

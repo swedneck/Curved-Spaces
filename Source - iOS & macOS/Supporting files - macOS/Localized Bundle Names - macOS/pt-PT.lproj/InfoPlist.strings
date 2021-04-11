@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys (Portuguese) */
+
+"CFBundleDisplayName"	= "Espaços Curvos";	/* program's de facto filename (in Finder) */
+"CFBundleName"			= "Espaços Curvos";	/* program's Application menu name         */

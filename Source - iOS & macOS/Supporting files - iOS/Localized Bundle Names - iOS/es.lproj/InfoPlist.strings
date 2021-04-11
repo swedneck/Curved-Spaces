@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys (Spanish) */
+
+"CFBundleDisplayName" = "Curved Spaces";	/* short name */
+
+"NSPhotoLibraryUsageDescription"	= "Curved Spaces te permite exportar la imagen actual a la app “Fotos”. Curved Spaces nunca accede a tus fotos y sólo añade nuevas imágenes cuando se lo pides.";
+"NSPhotoLibraryAddUsageDescription"	= "Curved Spaces te permite exportar la imagen actual a la app “Fotos”. Curved Spaces nunca accede a tus fotos y sólo añade nuevas imágenes cuando se lo pides.";

@@ -1,0 +1,107 @@
+//	Program:
+//		English name:  Curved Spaces
+//		Chinese name:  弯曲空间
+//
+//	Language:
+//		简体中文
+//		Chinese (Mandarin, simplified characters)
+//
+//	Translator:
+//		邹燕清
+//		Yanqing Zou   
+//
+//	Date:
+//		September 2012
+//
+//	© 2021 by Jeff Weeks
+//	See TermsOfUse.txt
+
+//	Application menu (macOS)
+"Curved Spaces"			= "弯曲空间"
+"About Curved Spaces"	= "关于弯曲空间"	//	with no '…' on macOS
+"About Curved Spaces…"	= "关于弯曲空间…"	//	with '…' on Windows
+"Hide Curved Spaces"	= "隐藏弯曲空间"
+"Hide Others"			= "隐藏其他"
+"Show All"				= "全部显示"
+"Quit Curved Spaces"	= "退出弯曲空间"	//	macOS
+
+//	File menu
+"File"					= "文件"
+"Open…"					= "打开…"
+"Open New…"				= "打开新的…"
+"Open Recent"			= "打开最近使用的"
+"Clear Menu"			= "清除菜单"
+"Export"				= "导出"
+"Copy Image"			= "拷贝图像"
+"Save Image"			= "存储图像"	//	with no '…' on iOS
+"Save Image…"			= "存储图像…"	//	with '…' on macOS
+"Exit"					= "退出"		//	Windows
+
+//	Space menu
+"Space"					= "空间"
+"Change Space…"			= "别的空间选取…"	//	macOS only
+"Basic"					= "初级"			//	iOS only
+"3-Torus"				= "三维环面"		//	iOS only
+"Poincaré Dodec. Space"	= "十二面体空间"	//	iOS only
+"Mirrored Dodecahedron"	= "镜像十二面体"	//	iOS only
+"Intermediate"			= "中级"			//	iOS only
+"Shape of Space, 3rd edition"	= "《Shape of Space》第三版"	//	iOS only
+"Advanced"				= "高级"			//	iOS only
+"Spherical"				= "球体空间"		//	iOS only
+"Flat"					= "平坦空间"		//	iOS only
+"Hyperbolic"			= "双曲空间"		//	iOS only
+
+//	Space Selection Sheet (macOS)
+"Choose a Space"		= "选取空间"
+"OK"					= "好"
+
+//	Done and Cancel buttons
+"Done"					= "完成"
+"Cancel"				= "取消"
+
+//	Options menu (iOS) / View menu (macOS)
+"Options"				= "选项"
+"View"					= "显示"
+"Centerpiece"			= "中心物体"
+"No Centerpiece"		= "无"	//	= "None"
+"Earth"					= "地球"
+"Galaxy"				= "星系"
+"Gyroscope"				= "陀螺仪"
+"Self"					= "本人"
+"Color Coding"			= "彩色编码"
+"Clifford Parallels"	= "克利福德平行线"
+"CliffordNone"			= "无"	//	= "None"
+"Bicolor"				= "双色"
+"One Set"				= "一局"
+"Two Sets"				= "两局"
+"Three Sets"			= "三局"
+"Vertex Figures"		= "顶点图像"
+"Fog"					= "雾效果"
+
+//	Help menu
+"Help"					= "帮助"
+"How to Fly"			= "操控飞船"
+"Contact"				= "联系方式"
+"Thanks"				= "谢谢"
+"Translators"			= "译者"
+"NSF"					= "NSF"
+"Close"					= "关闭"
+
+
+//	Window title
+				// Curved Spaces
+"WindowTitle"	= "弯曲空间"
+
+//	Save Panel (macOS)
+
+					// Save Image as PNG File
+"SavePanelTitle"	= "存储图像为 PNG"
+
+					// image
+"DefaultFileName"	= "图像"
+
+					// Width:
+"WidthLabel"		= "宽度:"
+
+					// Height:
+"HeightLabel"		= "高度:"

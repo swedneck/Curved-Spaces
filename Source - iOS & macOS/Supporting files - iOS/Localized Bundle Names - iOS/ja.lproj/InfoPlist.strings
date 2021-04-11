@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys (Japanese) */
+
+"CFBundleDisplayName" = "Curved Spaces";	/* short name */
+
+"NSPhotoLibraryUsageDescription"	= "Curved Spacesは、写真アプリケーションに表示画像を保存することができます。その際、既存の写真データをアクセスすることはありませんし、許可なく新しいイメージを保存することもありません。";
+"NSPhotoLibraryAddUsageDescription"	= "Curved Spacesは、写真アプリケーションに表示画像を保存することができます。その際、既存の写真データをアクセスすることはありませんし、許可なく新しいイメージを保存することもありません。";

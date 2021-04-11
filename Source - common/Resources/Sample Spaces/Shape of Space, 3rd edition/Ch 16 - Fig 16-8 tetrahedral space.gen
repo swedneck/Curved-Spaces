@@ -1,0 +1,94 @@
+#	The tetrahedral space is constructed by gluing the faces
+#	of a tetrahedron as shown in Figure 16.8 of the 3rd edition
+#	of the book The Shape of Space.  Amazingly enough, this space
+#	may also be understood as the non-homogeneous lens space L(5,2).
+#	Because it's non-homogeneous, its Dirichlet domain depends
+#	on where we choose the basepoint relative to the action
+#	of the group.  The following generators place the basepoint
+#	at the center of the tetrahedron, which we put at the
+#	north pole (0,0,0,1).
+#
+#	In the universal cover, 5 copies of the tetrahedron
+#	tile the 3-sphere, organized as a 5-cell.
+#	If we don't insist on normalizing vertices to unit length,
+#	we may put the 5-cell's vertices at the points
+#
+#		A:  (-√5, -√5, -√5, 1)
+#		B:  (-√5, +√5, +√5, 1)
+#		C:  (+√5, -√5, +√5, 1)
+#		D:  (+√5, +√5, -√5, 1)
+#		E:  ( 0,   0,   0, -4)
+#
+#	Gluing #1 takes ABCD → BDEC.
+#	Gluing #2 takes ABCD → DCAE.
+#
+#	Even though either one of the gluings by itself suffices
+#	to the generate the (cyclic!) group of covering transformations,
+#	let's go ahead and compute both.  The redundancy will
+#	allow for a simple consistency-check at the end.
+#	For each gluing, we'll start with a matrix whose rows are
+#	the four "source" points ABCD.  We'll apply the as-yet-unknown
+#	transformation matrix, and then require that we get a matrix
+#	whose rows are the four "destination" points (BDEC for gluing #1
+#	or DCAE for gluing #2).
+#
+#	Gluing #1:
+#
+#		( -√5 -√5 -√5  1  ) (               )   ( -√5 +√5 +√5  1  )
+#		( -√5 +√5 +√5  1  ) (   gluing #1   ) = ( +√5 +√5 -√5  1  )
+#		( +√5 -√5 +√5  1  ) (               )   (  0   0   0  -4  )
+#		( +√5 +√5 -√5  1  ) (               )   ( +√5 -√5 +√5  1  )
+#
+#	Gluing #2:
+#
+#		( -√5 -√5 -√5  1  ) (               )   ( +√5 +√5 -√5  1  )
+#		( -√5 +√5 +√5  1  ) (   gluing #2   ) = ( +√5 -√5 +√5  1  )
+#		( +√5 -√5 +√5  1  ) (               )   ( -√5 -√5 -√5  1  )
+#		( +√5 +√5 -√5  1  ) (               )   (  0   0   0  -4  )
+#
+#	To compute the inverse of the matrix on the left-hand side,
+#	I used an online matrix calculator to get a numerical inverse,
+#	then checked that this exact solution works:
+#
+#		( -1/(4√5)  -1/(4√5)  +1/(4√5)  +1/(4√5) ) ( -√5 -√5 -√5  1  )   ( 1  0  0  0 )
+#		( -1/(4√5)  +1/(4√5)  -1/(4√5)  +1/(4√5) ) ( -√5 +√5 +√5  1  ) = ( 0  1  0  0 )
+#		( -1/(4√5)  +1/(4√5)  +1/(4√5)  -1/(4√5) ) ( +√5 -√5 +√5  1  )   ( 0  0  1  0 )
+#		(    1/4       1/4       1/4       1/4   ) ( +√5 +√5 -√5  1  )   ( 0  0  0  1 )
+#
+#	For each of the two equations, we may left-multiply both sides
+#	by this inverse to solve for gluing #1 and gluing #2 respectively:
+#
+#		Note:  These formulas are pretty wide,
+#			   so you may need to disable
+#			   text-wrapping to see them clearly.
+#
+#		(               )   ( -1/(4√5)  -1/(4√5)  +1/(4√5)  +1/(4√5) ) ( -√5 +√5 +√5  1  )   ( +1/4  -3/4  +1/4  -√5/4 )
+#		(   gluing #1   ) = ( -1/(4√5)  +1/(4√5)  -1/(4√5)  +1/(4√5) ) ( +√5 +√5 -√5  1  ) = ( +3/4  -1/4  -1/4  +√5/4 )
+#		(               )   ( -1/(4√5)  +1/(4√5)  +1/(4√5)  -1/(4√5) ) (  0   0   0  -4  )   ( +1/4  +1/4  -3/4  -√5/4 )
+#		(               )   (    1/4       1/4       1/4       1/4   ) ( +√5 -√5 +√5  1  )   ( +√5/4 +√5/4 +√5/4 -1/4  )
+#
+#		(               )   ( -1/(4√5)  -1/(4√5)  +1/(4√5)  +1/(4√5) ) ( +√5 +√5 -√5  1  )   ( -3/4  -1/4  -1/4  -√5/4 )
+#		(   gluing #2   ) = ( -1/(4√5)  +1/(4√5)  -1/(4√5)  +1/(4√5) ) ( +√5 -√5 +√5  1  ) = ( +1/4  -1/4  +3/4  -√5/4 )
+#		(               )   ( -1/(4√5)  +1/(4√5)  +1/(4√5)  -1/(4√5) ) ( -√5 -√5 -√5  1  )   ( -1/4  -3/4  +1/4  +√5/4 )
+#		(               )   (    1/4       1/4       1/4       1/4   ) (  0   0   0  -4  )   ( +√5/4 -√5/4 -√5/4 -1/4  )
+#
+#	The square of gluing #1 is gluing #2, and
+#	the square of gluing #2 is the inverse of gluing #1,
+#	as one would expect, given that the group of
+#	covering transformations is the cyclic group Z₅.
+#	Gluing #1 or gluing #2 would generate the full group
+#	by itself, but I've included both for sake of symmetry
+#	(there's also a numerical advantage, but it's negligible).
+#
+#	The matrix elements lie in the field Q[√5].
+#	√5/4 = 0.55901699437494742410
+
+   0.25000000000000000000 -0.75000000000000000000  0.25000000000000000000 -0.55901699437494742410
+   0.75000000000000000000 -0.25000000000000000000 -0.25000000000000000000  0.55901699437494742410
+   0.25000000000000000000  0.25000000000000000000 -0.75000000000000000000 -0.55901699437494742410
+   0.55901699437494742410  0.55901699437494742410  0.55901699437494742410 -0.25000000000000000000
+
+  -0.75000000000000000000 -0.25000000000000000000 -0.25000000000000000000 -0.55901699437494742410
+   0.25000000000000000000 -0.25000000000000000000  0.75000000000000000000 -0.55901699437494742410
+  -0.25000000000000000000 -0.75000000000000000000  0.25000000000000000000  0.55901699437494742410
+   0.55901699437494742410 -0.55901699437494742410 -0.55901699437494742410 -0.25000000000000000000

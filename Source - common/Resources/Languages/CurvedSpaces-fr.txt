@@ -1,0 +1,100 @@
+//	Program:
+//		Curved Spaces
+//
+//	Language:
+//		Français
+//		French
+//
+//	Translator:
+//		Roland Lehoucq
+//
+//	Date:
+//		January 2007
+//
+//	© 2021 by Jeff Weeks
+//	See TermsOfUse.txt
+//
+//	This file should be saved as UTF-8.
+
+
+//	Application menu (macOS)
+"Curved Spaces"			= "Curved Spaces"
+"About Curved Spaces"	= "À propos de Curved Spaces"	//	with no '…' on macOS
+"About Curved Spaces…"	= "À propos de Curved Spaces…"	//	with '…' on Windows
+"Hide Curved Spaces"	= "Masquer Curved Spaces"
+"Hide Others"			= "Masquer les autres"
+"Show All"				= "Tout afficher"
+"Quit Curved Spaces"	= "Quitter Curved Spaces"	//	macOS
+
+//	File menu
+"File"					= "Fichier"
+"Open…"					= "Ouvrir…"
+"Open New…"				= "Ouvrir dans une nouvelle fenêtre…"
+"Open Recent"			= "Ouvrir récent"
+"Clear Menu"			= "Effacer le menu"
+"Export"				= "Exportation"
+"Copy Image"			= "Copier la vue"
+"Save Image"			= "Enregistrer la vue"	//	with no '…' on iOS
+"Save Image…"			= "Enregistrer la vue…"	//	with '…' on macOS
+"Exit"					= "Quitter"	//	Windows
+
+//	Space menu
+"Space"					= "Espaces"	//	intentionally in the plural in French
+"Change Space…"			= "Changer d'espace…"	//	macOS only
+"Basic"					= "Niveau de base"						//	iOS only
+"3-Torus"				= "Hypertore"							//	iOS only
+"Poincaré Dodec. Space"	= "Espace dodécaédrique de Poincaré"	//	iOS only
+"Mirrored Dodecahedron"	= "Dodécaèdre à faces miroirs"			//	iOS only
+"Intermediate"			= "Niveau intermédiaire"				//	iOS only
+"Shape of Space, 3rd edition"	= "Shape of Space, 3ème édition"	//	iOS only
+"Advanced"				= "Niveau avancé"						//	iOS only
+"Spherical"				= "Sphériques"							//	iOS only
+"Flat"					= "Euclidiens"							//	iOS only
+"Hyperbolic"			= "Hyperboliques"						//	iOS only
+
+//	Space Selection Sheet (macOS)
+"Choose a Space"		= "Choix d'espace"
+"OK"					= "OK"
+
+//	Done and Cancel buttons
+"Done"					= "OK"
+"Cancel"				= "Annuler"
+
+//	Options menu (iOS) / View menu (macOS)
+"Options"				= "Options"
+"View"					= "Présentation"
+"Centerpiece"			= "Astre central"
+"No Centerpiece"		= "Aucun objet"
+"Earth"					= "Terre"
+"Galaxy"				= "Galaxie"
+"Gyroscope"				= "Gyroscope"
+"Self"					= "Moi"
+"Color Coding"			= "Colorier les faces associées"
+"Clifford Parallels"	= "Parallèles de Clifford"
+"CliffordNone"			= "Aucune"
+"Bicolor"				= "Bicolores"
+"Centerlines"			= "<Centerlines>"	//	not used in public version
+"One Set"				= "Un ensemble"
+"Two Sets"				= "Deux ensembles"
+"Three Sets"			= "Trois ensembles"
+"Vertex Figures"		= "Symétrie des sommets"
+"Fog"					= "Brouillard"
+
+//	Help menu
+"Help"					= "Aide"
+"How to Fly"			= "Comment piloter"
+"Contact"				= "Contact"
+"Thanks"				= "Remerciements"
+"Translators"			= "Traducteurs"
+"NSF"					= "NSF"
+"Close"					= "Fermer"
+
+
+//	Window title
+"WindowTitle"	= "Curved Spaces"
+
+//	Save Panel (macOS)
+"SavePanelTitle"	= "Enregistrer l'image au format PNG"
+"DefaultFileName"	= "image"
+"WidthLabel"		= "Largeur:"
+"HeightLabel"		= "Hauteur:"

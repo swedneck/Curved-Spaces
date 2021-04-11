@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys (Portuguese) */
+
+"CFBundleDisplayName" = "Espaços Curvos";	/* short name */
+
+"NSPhotoLibraryUsageDescription"	= "Espaços Curvos permite salvar a imagem atual para a aplicação Fotografías.  Espaços Curvos não tem permissão para ver as suas fotos nem para adicionar novas imagens a não ser que o permita explicitamente.";
+"NSPhotoLibraryAddUsageDescription"	= "Espaços Curvos permite salvar a imagem atual para a aplicação Fotografías.  Espaços Curvos não tem permissão para ver as suas fotos nem para adicionar novas imagens a não ser que o permita explicitamente.";

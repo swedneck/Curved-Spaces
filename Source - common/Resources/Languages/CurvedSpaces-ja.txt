@@ -1,0 +1,111 @@
+//	Program:
+//		Curved Spaces
+//
+//	Language:
+//		日本語
+//		Japanese
+//
+//	Translator:
+//		竹内　建
+//		Tatsu Takeuchi
+//
+//	Date:
+//		July 2008
+//
+//	© 2021 by Jeff Weeks
+//	See TermsOfUse.txt
+//
+//	This file should be saved as UTF-8.
+
+
+//	Application menu (macOS)
+"Curved Spaces"			= "Curved Spaces"
+"About Curved Spaces"	= "Curved Spaces について"	//	with no '…' on macOS
+"About Curved Spaces…"	= "Curved Spaces について…"	//	with '…' on Windows
+"Hide Curved Spaces"	= "Curved Spaces を隠す"
+"Hide Others"			= "ほかを隠す"
+"Show All"				= "すべてを表示"
+"Quit Curved Spaces"	= "Curved Spaces を終了"	//	macOS
+
+//	File menu
+"File"					= "ファイル"
+"Open…"					= "開く…"
+"Open New…"				= "新しいウィンドウに開く…"
+"Open Recent"			= "最近使ったファイルを開く"
+"Clear Menu"			= "メニューをクリア"
+"Export"				= "エクスポート"
+"Copy Image"			= "画像をコピー"
+"Save Image"			= "画像を保存"	//	with no '…' on iOS
+"Save Image…"			= "画像を保存…"	//	with '…' on macOS
+"Exit"					= "終了"	//	Windows
+
+//	Space menu
+"Space"					= "空間"
+"Change Space…"			= "別の空間を選択する…"	//	lit.: “choose another space”   (macOS only)
+"Basic"					= "<BASIC>"			//	iOS only
+"3-Torus"				= "３次元トーラス"		//	iOS only
+"Poincaré Dodec. Space"	= "ポアンカレ十二面体空間"		//	iOS only
+						//	or ポアンカレ１２面体空間
+"Mirrored Dodecahedron"	= ""		//	iOS only
+"Intermediate"			= "<INTERMEDIATE>"	//	iOS only
+"Shape of Space, 3rd edition"	= "Shape of Space, 3rd edition"	//	iOS only
+"Advanced"				= "<ADVANCED>"		//	iOS only
+"Spherical"				= "<SPHERICAL>"		//	iOS only
+"Flat"					= "<FLAT>"			//	iOS only
+"Hyperbolic"			= "<HYPERBOLIC>"	//	iOS only
+
+//	Space Selection Sheet (macOS)
+"Choose a Space"		= "空間を選択してください"	//	lit.: “please choose a space”
+"OK"					= "OK"
+
+//	Done and Cancel buttons
+"Done"					= "完了"
+"Cancel"				= "キャンセル"
+
+//	Options menu (iOS) / View menu (macOS)
+"Options"				= "オプション"
+"View"					= "表示"
+"Centerpiece"			= "中央物体"
+"No Centerpiece"		= "なし"
+"Earth"					= "地球"
+"Galaxy"				= "銀河"
+"Gyroscope"				= "ジャイロスコープ"
+"Self"					= "<Self>"
+"Color Coding"			= "対応壁対の色分け"
+"Clifford Parallels"	= "クリフォード平行線"
+"CliffordNone"			= "なし"		//	= "None"
+"Bicolor"				= "二色"		//	JUST A GUESS BY JRW, NOT YET IMPLEMENTED IN METAL VERSION
+"Centerlines"			= "<Centerlines>"	//	not used in public version
+"One Set"				= "１集合"	//	JUST A GUESS BY JRW, NOT YET IMPLEMENTED IN METAL VERSION
+"Two Sets"				= "２集合"	//	JUST A GUESS BY JRW, NOT YET IMPLEMENTED IN METAL VERSION
+"Three Sets"			= "３集合"	//	JUST A GUESS BY JRW, NOT YET IMPLEMENTED IN METAL VERSION
+"Vertex Figures"		= "頂点図形"
+"Fog"					= "フォグ効果"
+
+//	Help menu
+"Help"					= "ヘルプ"
+"How to Fly"			= "<How to fly>"
+"Contact"				= "連絡先"
+"Thanks"				= "謝辞"
+"Translators"			= "翻訳"
+"NSF"					= "NSF"
+"Close"					= "閉じる"
+
+
+//	Window title
+				// Curved Spaces
+"WindowTitle"	= "Curved Spaces"
+
+//	Save Panel (macOS)
+
+					// Save Image as PNG File
+"SavePanelTitle"	= "画像をPNG形式で保存"
+
+					// image
+"DefaultFileName"	= "画像"
+
+					// Width:
+"WidthLabel"		= "幅:"
+
+					// Height:
+"HeightLabel"		= "高さ:"

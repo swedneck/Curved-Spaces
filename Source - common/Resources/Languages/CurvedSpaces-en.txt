@@ -1,0 +1,105 @@
+//	Program:
+//		Curved Spaces
+//
+//	Language:
+//		English
+//		English
+//
+//	Translator:
+//		N/A
+//
+//	Date:
+//		N/A
+//
+//	© 2021 by Jeff Weeks
+//	See TermsOfUse.txt
+//
+//	This file should be saved as UTF-8.
+
+
+//	Application menu
+"Curved Spaces"			= "Curved Spaces"
+"About Curved Spaces"	= "About Curved Spaces"		//	with no '…' on macOS
+"About Curved Spaces…"	= "About Curved Spaces…"	//	with '…' on Windows
+"Hide Curved Spaces"	= "Hide Curved Spaces"
+"Hide Others"			= "Hide Others"
+"Show All"				= "Show All"
+"Quit Curved Spaces"	= "Quit Curved Spaces"	//	macOS
+
+//	File menu
+"File"					= "File"
+"Open…"					= "Open…"
+"Open New…"				= "Open New…"
+"Open Recent"			= "Open Recent"
+"Clear Menu"			= "Clear Menu"
+"Export"				= "Export"
+"Copy Image"			= "Copy Image"
+"Save Image"			= "Save Image"	//	with no '…' on iOS
+"Save Image…"			= "Save Image…"	//	with '…' on macOS
+"Exit"					= "Exit"	//	Windows
+
+//	Space menu
+"Space"					= "Space"
+"Change Space…"			= "Change Space…"				//	macOS only
+"Basic"					= "Basic"						//	iOS only
+"3-Torus"				= "3-Torus"						//	iOS only
+"Poincaré Dodec. Space"	= "Poincaré Dodecahedral Space"	//	iOS only
+"Mirrored Dodecahedron"	= "Mirrored Dodecahedron"		//	iOS only
+"Intermediate"			= "Intermediate"				//	iOS only
+"Shape of Space, 3rd edition"	= "Shape of Space, 3rd edition"	//	iOS only
+"Advanced"				= "Advanced"					//	iOS only
+"Spherical"				= "Spherical"					//	iOS only
+"Flat"					= "Flat"						//	iOS only
+"Hyperbolic"			= "Hyperbolic"					//	iOS only
+
+//	Space Selection Sheet (macOS)
+"Choose a Space"		= "Choose a Space"
+"OK"					= "OK"
+
+//	To get the UIKit's official translations
+//	for "Done" and "Cancel", use the code
+//	found in my folder
+//
+//		Notes & Utilities/Done and Cancel translations/
+//
+"Done"					= "Done"
+"Cancel"				= "Cancel"
+
+//	Options menu (iOS) / View menu (macOS)
+"Options"				= "Options"
+"View"					= "View"
+"Centerpiece"			= "Centerpiece"
+"No Centerpiece"		= "None"
+"Earth"					= "Earth"
+"Galaxy"				= "Galaxy"
+"Gyroscope"				= "Gyroscope"
+"Self"					= "Self"
+"Color Coding"			= "Color Coding"
+"Clifford Parallels"	= "Clifford Parallels"
+"CliffordNone"			= "None"
+"Bicolor"				= "Bicolor"
+"Centerlines"			= "Centerlines"	//	not used in public version
+"One Set"				= "One Set"
+"Two Sets"				= "Two Sets"
+"Three Sets"			= "Three Sets"
+"Vertex Figures"		= "Vertex Figures"
+"Fog"					= "Fog"
+
+//	Help menu
+"Help"					= "Help"
+"How to Fly"			= "How to Fly"
+"Contact"				= "Contact"
+"Thanks"				= "Thanks"
+"Translators"			= "Translators"
+"NSF"					= "NSF"
+"Close"					= "Close"
+
+
+//	Window title
+"WindowTitle"	= "Curved Spaces"
+
+//	Save Panel (macOS)
+"SavePanelTitle"	= "Save Image as PNG File"
+"DefaultFileName"	= "image"
+"WidthLabel"		= "Width:"
+"HeightLabel"		= "Height:"
